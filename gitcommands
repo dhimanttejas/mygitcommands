@@ -1,0 +1,12 @@
+install git 
+sudo yum update -y
+sudo yum install git -y
+git --version 
+which git 
+
+# now configure git by giving user name and user email 
+
+git config --global user.name "tejas"
+git config --global user.email "dhimanttejas@gmail.com"
+
+
