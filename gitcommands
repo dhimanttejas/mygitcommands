@@ -9,4 +9,20 @@ which git
 git config --global user.name "tejas"
 git config --global user.email "dhimanttejas@gmail.com"
 
+# create directory for git working directory and git repository
 
+mkdir mygitdir
+cd mygitdir
+[mygitdir] # git init  		[this will initiate git repo]
+[mygitsir] # git status 	<This will check status any files there in dir to add>
+	   # vi myfile 		<make file and write code>
+	     - to use vi editor visit <https://www.adminschoice.com/wp-content/uploads/2009/12/vi-editor-Cheat-Sheet.pdf>
+	   # git status 
+	   # git add . 		<'dot' is imp here as this is showing you current dir>
+	   # git status 	<now your code is in staging area ready to commint means push it to local repo>
+	   # git commit -m "this is mt first commit"
+	   # git status  	<now your code is in local repo>
+	   # git log 		<you can see all your commits with this cmd also check commit id>
+	   # git show [commit id] 	<this cmd will show you what you have added in code or what changes has been made>
+
+# you are now ready to push your code on Central Repository <github> 
