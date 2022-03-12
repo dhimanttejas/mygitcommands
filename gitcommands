@@ -35,5 +35,19 @@ Ask you for password : where you can gine PAT
 
 # now from another region connect your server to git hub  
 
+to pull all the code form central repo 
+-> you must connect with github
+
+git remote add origin "<hithub repo link>"
+
+git pull origin master 
+
+now you can work on it 
+you also check what changes has been made in code 
+
+git log --oneline
+
+git show <id>
+
 
  
