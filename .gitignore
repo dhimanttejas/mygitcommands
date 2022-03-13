@@ -1,0 +1,6 @@
+
+# this is all the file name and formate which i want to ignore for commit
+
+*.css
+*.java
+
