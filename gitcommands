@@ -8,7 +8,7 @@ which git
 
 git config --global user.name "tejas"
 git config --global user.email "dhimanttejas@gmail.com"
-
+--------------------------------------------------------------------------------------------------------------------------
 # create directory for git working directory and git repository
 
 mkdir mygitdir
@@ -23,7 +23,7 @@ cd mygitdir
 	   # git commit -m "this is mt first commit"
 	   # git status  	<now your code is in local repo>
 	   # git log 		<you can see all your commits with this cmd also check commit id>
-	   # git show [commit id] 	<this cmd will show you what you have added in code or what changes has been made>
+	   # git show [commit id] 	<this cmd will show you what you have added in code or what changes has been made>-------------------------------------------------------------------------------------------------------------------------
 
 # you are now ready to push your code on Central Repository <github>
 connect to central repo. 
@@ -32,7 +32,7 @@ git remote add origin <central repo. github link>
 git push -u origin master  	<this will push all your file which is on local repo to >
 Ask you fo rgithub username 
 Ask you for password : where you can gine PAT
-
+--------------------------------------------------------------------------------------------------------------------------
 # now from another region connect your server to git hub  
 
 to pull all the code form central repo 
